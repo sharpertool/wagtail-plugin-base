@@ -1,0 +1,17 @@
+{
+  "name": "wagtail-plugin-base",
+  "version": "1.0.0",
+  "author": "Damon Jagger",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vixdigital/wagtail-plugin-base.git"
+  },
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
