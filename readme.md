@@ -19,7 +19,7 @@ A basic template for creating wagtail javascript plugins.
 ## Usage
 
 - Write your plugin JavaScript in the src folder.
-- `yarn run build` (or `npm run build`) will bundle the assets from the src directory into the [pluign-name]/static directory.
+- `yarn run build` (or `npm run build`) will bundle the assets from the src directory into the [plugin-name]/static directory.
 - `python setup.py sdist` will build your python package into a dist/ directory.
 - `twine upload dist/*` will upload your built packages to PyPi.
 
