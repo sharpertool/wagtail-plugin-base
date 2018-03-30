@@ -6,12 +6,12 @@ Information entered here will be used for your PyPi package page and the package
 
 from setuptools import setup, find_packages
 
-setup(name='plugin-base',
+setup(name='wagtail-katex',
       version='1.0.0',
-      description='A blank template for creating Wagtail plugins.',
-      url='https://github.com/vixdigital/wagtail-plugin-base',
-      author='VIX Digital',
-      author_email='info@vix.digital',
+      description='Add KaTeX rendering to drafttail',
+      url='https://github.com/sharpertool/wagtail-katex',
+      author='SharperTool',
+      author_email='ed@sharpertool.com',
       license='MIT',
       packages=find_packages(),
       include_package_data=True,
